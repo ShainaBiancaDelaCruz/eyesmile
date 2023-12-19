@@ -1,0 +1,38 @@
+#sub{
+    background-color: #FF6D33;
+    color: white;
+}
+#fix1{
+    margin-left: 15px;
+}   
+#fix2{
+    margin-left: -5px;
+}
+#hrco{
+    border: 2px solid #FF6D33;
+    opacity: 100%;
+}
+#nodecor{
+    text-decoration: none;
+}
+#space{
+    margin-bottom: -15px;
+}
+#nav-tab button{
+    background-color: lightgray;
+}
+#nav-tab .active{
+    background-color: #f8f9fa;
+}
+#nav-general-tab{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#nav-profile-tab{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#profile{
+    width: 120px;
+    height: 120px;
+}

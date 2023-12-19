@@ -1,0 +1,226 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+
+  #calendar {
+    max-width: 900px;
+    margin: 40px auto;
+     overflow: hidden; /* Hide vertical scrollbar on the body */
+  }
+  
+  
+
+  /* Change button colors to orange */
+  .fc button {
+    background-color: #FF6D33 !important;
+    color: white; /* Set text color to white for better contrast */
+   
+  }
+  
+    .modal {
+    display: none; /* Hide the modal by default */
+    position: absolute;
+    right: 20px; /* Initial position, adjust as needed */
+    z-index: 9999;
+  }
+  
+   .modal-content {
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .modal-header {
+    border-bottom: none;
+  }
+
+  .modal-body {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    #calendar {
+      max-width: 100%;
+      margin: 20px;
+    }
+    
+   .fc-toolbar-title {
+      order: -1;
+      margin-bottom: 20px; /* Adjust the margin as needed */
+    }
+
+    .fc-header-toolbar {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .fc-toolbar {
+      margin-top: 10px; /* Adjust the margin as needed */
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    #calendar {
+      max-width: 100%;
+      margin: 10px;
+      overflow: hidden; /* Hide vertical scrollbar on the body */
+      height:100%
+    }
+      
+      .fc-toolbar-title {
+    text-align: center;
+  
+   
+  }
+  
+  .fc-button{
+      margin-top: 15px;
+  }
+
+  .fc-header-toolbar {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+ 
+   
+  .fc-toolbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+  }
+
+  .fc-toolbar .fc-center {
+    order: -1;
+   
+  }
+    
+  
+  }
+
+
+#content-header {
+    margin: 0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    color: #030303;
+}
+
+#profile-section {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+#notification-icon {
+    display: flex;
+    margin-right: 20px;
+    color: #010101;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#user-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#user-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#navbar-toggle {
+    display: flex;
+    cursor: pointer;
+    padding: 15px;
+    width: 30px;
+}
+
+#sidebar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    padding-top: 60px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    transition: left 0.2s ease;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#sidebar ul li {
+    margin-bottom: 10px;
+}
+
+#sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 25px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+
+#sidebar ul li a i {
+    margin-right: 10px;
+}
+
+#sidebar ul li a img {
+    width: 25px;
+    height: auto;
+    margin-right: 10px;
+}
+
+#sidebar ul li a:hover {
+    background-color: #FF6D33;
+    color: #fff;
+}
+
+#logo {
+    text-align: center;
+    margin-top: -70px;
+}
+
+#logo img {
+    width: 250px;
+    height: auto;
+}
+
+.boxL{
+    background-color: rgba(255, 109, 51, 0.35)
+    ;
+    text-align: center;
+}
+#hrco{
+    border: 2px solid #FF6D33;
+    opacity: 100%;
+}
+#sub{
+    background-color: #FF6D33;
+    color: white;
+}
+#nav-tab button{
+    background-color: lightgray;
+}
+#nav-tab .active{
+    background-color: #f8f9fa;
+}

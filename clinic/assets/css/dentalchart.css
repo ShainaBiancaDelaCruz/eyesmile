@@ -1,0 +1,26 @@
+.boxL {
+  background-color: rgba(255, 109, 51, 0.35);
+  text-align: center;
+}
+#hrco {
+  border: 2px solid #ff6d33;
+  opacity: 100%;
+}
+#sub {
+  background-color: #ff6d33;
+  color: white;
+}
+#nav-tab button {
+  background-color: lightgray;
+}
+#nav-tab .active {
+  background-color: #f8f9fa;
+}
+
+.group {
+  padding-bottom: 4px;
+}
+.link {
+  margin: 0;
+  margin-bottom: -20px;
+}

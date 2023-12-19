@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    height: 100vh;
+}
+form img{
+    height: 100%;
+    width: 100%;
+}
+a:link{
+    cursor: pointer;
+    color: purple;
+}
+a:hover{
+    color: darkviolet;
+}
+a:after{
+    color: darkviolet;
+}
+a:active{
+    color: darkviolet;
+}
+form img{
+    position: relative;
+    top: -35px;
+    bottom: 0;
+    overflow: hidden;
+}
+#im2{
+    scale: 0.8;
+}
+#btn1{
+    background-color: #FF6D33;
+    color: white;
+}
+@media(max-width:500px){
+    form img{
+        transition: all 0.5s ease;
+        scale: 1.15;
+    }
+}
